@@ -2,4 +2,6 @@
 let student = {
 	name : "Ajay"
 }
-Object.prototype.getKeys() = () => return Object.keys(this);
+Object.prototype.getKeys() = function () { 
+	return Object.keys(this);
+}
